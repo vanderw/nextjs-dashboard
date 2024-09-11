@@ -6,7 +6,7 @@ import { lusitana } from "@/app/ui/fonts"
 import { 
     // fetchRevenue, 
     // fetchLatestInvoices, 
-    fetchCardData,
+    // fetchCardData,
 } from "@/app/lib/data"
 import { Suspense } from "react"
 import { 
@@ -18,7 +18,7 @@ import {
 export default async function Page() {
     // const revenue = await fetchRevenue();
     // const latestInvoices = await fetchLatestInvoices()
-    const {totalPaidInvoices, totalPendingInvoices, numberOfInvoices, numberOfCustomers} = await fetchCardData()
+    // const {totalPaidInvoices, totalPendingInvoices, numberOfInvoices, numberOfCustomers} = await fetchCardData()
 
     return (
         <main>
